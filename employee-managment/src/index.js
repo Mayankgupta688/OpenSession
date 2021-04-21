@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import WorkingWithEvent from "./components/WorkingWithEvent";
+import WorkingWithStateComponent from "./components/workingWithStateComponent";
 
 
 ReactDOM.render((
     <div>
-        <WorkingWithEvent></WorkingWithEvent><hr/>
+        <WorkingWithStateComponent></WorkingWithStateComponent>
     </div>
 ), document.getElementById("root"));
